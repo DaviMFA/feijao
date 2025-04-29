@@ -29,9 +29,9 @@ img {
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0, 33%, 99%);
-  --text-color-light: hsl(0, 0%, 5%);
-  --body-color: hsl(0, 0%, 97%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -325,7 +325,7 @@ nav.show div.icon-close {
 
 /*====  ABOUT ============================ */
 #about {
-  background: rgb(27, 26, 26);
+  background: white;
 }
 
 #about .container {
@@ -701,11 +701,6 @@ footer .social  a:hover{
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.25rem;
   }
-}
-.card img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
 }
 
 /* medium devices 767 */
